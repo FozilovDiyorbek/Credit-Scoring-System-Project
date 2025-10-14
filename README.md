@@ -1,10 +1,10 @@
 # Credit-Scoring-System-Project   
 
-## 📌 Project Overview
+##  Project Overview
 The **Credit Scoring System Project** is a machine learning solution designed to predict whether a customer is a potential credit risk (good or bad borrower).  
 This project follows a structured ML pipeline including **data preparation, exploratory data analysis (EDA), feature engineering, model training, evaluation, and deployment**.  
 
-The final best-performing model is stored as `best_model.pkl` and can be used to make predictions through a simple deployment app.
+The final best performing model is saved as `best_model.pkl` and can be integrated via API or used in the web interface via Streamlit
 
 ---
 
@@ -12,8 +12,8 @@ The final best-performing model is stored as `best_model.pkl` and can be used to
 ```
 Credit_Scoring_System_Project/
 │── data/
-│ ├── raw/ # Raw dataset
-│ ├── processed/ # Cleaned and processed dataset
+│ ├── raw/                               # Raw dataset
+│ ├── processed/                         # Cleaned and processed dataset
 │
 │── notebooks/
 │ ├── 01_data_preparation.ipynb
@@ -21,16 +21,26 @@ Credit_Scoring_System_Project/
 │ ├── 03_feature_engineering.ipynb
 │ ├── 04_modeling.ipynb
 │ ├── 05_model_evaluation.ipynb
-│ ├── 06_model_deployment.ipynb
-│
+│ 
 │── models/
-│ ├── best_model.pkl # Saved best model
-│
+│ ├── best_model.pkl                     # Best model
+│ ├── preprocessing_pipeline.pkl
+|
+|── src
+| ├── preprocess.py
+│ ├── featuring.py
+│ ├── model_train.py
+│ ├── main.py
+|
 │── app/
-│ ├── app.py # Deployment script (Streamlit/Flask)
-│
-│── requirements.txt # Required libraries
-│── README.md # Project documentation
+│ ├── main.py                            # Deployment script (FastAPI)
+│ ├── schemes.py
+|
+|── Streamlit_app
+| ├── app.py                             # Deployment script (Streamlit)
+|
+│── requirements.txt                     # Required libraries
+│── README.md                            # Project documentation
 │── .gitignore
 ```
 
