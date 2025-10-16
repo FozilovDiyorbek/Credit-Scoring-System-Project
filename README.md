@@ -46,7 +46,7 @@ Credit_Scoring_System_Project/
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 Clone the repository and install dependencies:
 
 ```bash
@@ -54,10 +54,10 @@ git clone https://github.com/yourusername/Credit-Scoring-System-Project.git
 cd Credit-Scoring-System-Project
 pip install -r requirements.txt
 ```
-🚀 Running the Project
-1. Run Jupyter Notebooks
+## Running the Project
+**1**.Run Jupyter Notebooks
 
-Each step of the project is available in notebooks/:
+**Each step of the project is available in notebooks/:**
 
 Data Preparation
 
@@ -71,13 +71,13 @@ Model Evaluation
 
 Deployment
 
-2. Run the Deployment App
+## 2.Run the Deployment App
 
 If you are using Streamlit:
 ```
 streamlit run app/app.py
 ```
-📊 Features
+## Features
 
 Data preprocessing & cleaning
 
@@ -91,7 +91,7 @@ Model evaluation (Confusion Matrix, ROC Curve, AUC Score)
 
 Deployment-ready best model (best_model.pkl)
 
-✅ Results
+## Results
 
 The model successfully predicts whether a customer is likely to default or repay a loan.
 
