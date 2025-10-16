@@ -97,7 +97,7 @@ The model successfully predicts whether a customer is likely to default or repay
 
 Evaluation metrics such as accuracy, precision, recall, F1-score, and ROC-AUC are provided.
 
-🔮 Future Improvements
+## Future Improvements
 
 Add hyperparameter tuning with Optuna
 
@@ -107,7 +107,7 @@ Deploy as a full web service with FastAPI + Docker
 
 Integrate CI/CD pipeline for production readiness
 
-👤 Author
+## Author
 
 Diyorbek Fozilov
 📧 Email: diyorbekfozilov011@gmail.com
